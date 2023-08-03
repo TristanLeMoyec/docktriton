@@ -2,10 +2,10 @@
 FROM python:3.8.12-buster
 
 # copy files to the /app folder in the container
-COPY fast.py /app/fast.py
+COPY fast.py /app/app.py
 COPY Pipfile /app/Pipfile
 COPY Pipfile.lock /app/Pipfile.lock
-COPY model.py /app/model.py
+COPY model.py /app/Model.py
 COPY iris_model.joblib /app/iris_model.joblib
 
 
